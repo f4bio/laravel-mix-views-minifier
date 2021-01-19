@@ -1,10 +1,10 @@
-# laravel-mix-template-minifier
+# laravel-mix-views-minifier
 This package allows you to minify template files.
 
 ## Install
 
 ``` bash
-$ npm install --save-dev laravel-mix-template-minifier
+$ npm install --save-dev laravel-mix-views-minifier
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ $ npm install --save-dev laravel-mix-template-minifier
 
 let mix = require('laravel-mix');
 
-mix.minTemplate = require('laravel-mix-template-minifier')
+mix.minTemplate = require('laravel-mix-views-minifier')
 
 if (mix.inProduction()) {
   mix.minTemplate('storage/framework/views/*.php', 'storage/framework/views/')
@@ -31,8 +31,9 @@ if (mix.inProduction()) {
 
 ## Thanks
 
+- [laravel-mix-template-minifier](https://github.com/hiseanchang/laravel-mix-template-minifier)
 - [html-minifier](https://github.com/kangax/html-minifier)
 
 ## License
 
-MIT @ [SEANCHANG](https://github.com/hiseanchang/)
+MIT @ [SEANCHANG](https://github.com/sparkinzy/)
