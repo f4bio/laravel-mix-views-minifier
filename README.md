@@ -36,4 +36,4 @@ if (mix.inProduction()) {
 
 ## License
 
-MIT @ [SEANCHANG](https://github.com/sparkinzy/)
+MIT @ [sparkinzy](https://github.com/sparkinzy/)
