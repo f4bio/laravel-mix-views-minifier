@@ -38,10 +38,8 @@ class MixMinifyTask extends Task {
 
   minifyTemplate(src, index) {
     let file = new File(src);
-    console.log(src);
     let output_file = src.replace(this.src_path,'');
     let output = new File(path.join(this.output, output_file));
-    console.log('output',path.join(this.output, output_file));
     try {
       let html = minify(file.read(), this.options);
 
